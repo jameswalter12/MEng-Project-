@@ -3,7 +3,11 @@
 
 Will just try put some notes in here for now... 
 
-Currently having a look at this source: https://github.com/ataata107/Photogrammetry-OpenCV/tree/master 
+Currently having a look at these sources: 
+
+https://github.com/ataata107/Photogrammetry-OpenCV/tree/master  
+
+https://github.com/worklifesg/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/blob/main/5.%20Object%20Detection%20with%20OpenCV%20and%20Python/1_ObjectDetection_OpenCV_Introduction_Template_Matching.ipynb 
 
 ## Color Conversion
 
