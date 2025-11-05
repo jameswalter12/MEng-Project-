@@ -28,41 +28,45 @@ plt.axis('off')   # Hide axis
 plt.show()        # Display the plot
 '''
 
-# Read an image from disk (change the path to your own image if needed)
-img  = cv2.imread("/Users/jameswalter/Desktop/Photogammetry/Images/IMG_1668.JPG")
+def detect_and_draw_objects(image_path):
+    """
+    Loads an image, processes it to detect objects/contours, draws them, and displays the result.
+    Args:
+        image_path (str): Path to the image file to process.
+    """
+    # Read an image from disk
+    img  = cv2.imread(image_path)
+    if img is None:
+        print(f"Could not load image: {image_path}")
+        return
+    # Apply a median blur to the image to reduce noise
+    phone_blur = cv2.medianBlur(img, 25)
+    # Convert the blurred image to grayscale (single channel)
+    grey_phone = cv2.cvtColor(phone_blur, cv2.COLOR_BGR2GRAY)
+    # Apply a binary threshold to the grayscale image
+    # Pixels above the threshold become 0 (black), below become 255 (white), using Otsu's method
+    ret, thresh = cv2.threshold(grey_phone, 0, 255, cv2.THRESH_BINARY_INV+cv2.THRESH_OTSU)
+    # Create a small matrix (kernel) of ones for morphological operations
+    kernel = np.ones((3,3), np.uint8)
+    # Use morphological opening to remove small white noise from the thresholded image
+    opening = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, kernel, iterations=2)
+    # Dilate the image to increase the white region (background)
+    sure_bg = cv2.dilate(opening, kernel, iterations=3)
+    # Find contours (outlines) in the thresholded image
+    contours, hierarchy = cv2.findContours(thresh.copy(), cv2.RETR_CCOMP, cv2.CHAIN_APPROX_SIMPLE)
+    # Loop through all found contours
+    if hierarchy is not None:
+        for i in range(len(contours)):
+            # Only draw the outermost contours (those with no parent)
+            if hierarchy[0][i][3] == -1:
+                # Draw the contour on the original image in blue with thickness 10
+                cv2.drawContours(img, contours, i, (255, 0, 0), 10)
+    # Display the final image with contours drawn
+    display(img)
 
-# Apply a median blur to the image to reduce noise
-phone_blur = cv2.medianBlur(img, 25)
-
-# Convert the blurred image to grayscale (single channel)
-grey_phone = cv2.cvtColor(phone_blur, cv2.COLOR_BGR2GRAY)
-
-# Apply a binary threshold to the grayscale image
-# Pixels above the threshold become 0 (black), below become 255 (white), using Otsu's method
-ret, thresh = cv2.threshold(grey_phone, 0, 255, cv2.THRESH_BINARY_INV+cv2.THRESH_OTSU)
-
-# Create a small matrix (kernel) of ones for morphological operations
-kernel = np.ones((3,3), np.uint8)
-
-# Use morphological opening to remove small white noise from the thresholded image
-opening = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, kernel, iterations=2)
-
-# Dilate the image to increase the white region (background)
-sure_bg = cv2.dilate(opening, kernel, iterations=3)
-
-# Find contours (outlines) in the thresholded image
-# 'contours' is a list of contour points, 'hierarchy' describes the nesting of contours
-contours, hierarchy = cv2.findContours(thresh.copy(), cv2.RETR_CCOMP, cv2.CHAIN_APPROX_SIMPLE)
-
-# Loop through all found contours
-for i in range(len(contours)):
-    # Only draw the outermost contours (those with no parent)
-    if hierarchy[0][i][3] == -1:
-        # Draw the contour on the original image in blue with thickness 10
-        cv2.drawContours(img, contours, i, (255, 0, 0), 10)
-
-# Display the final image with contours drawn
-# The display function uses matplotlib to show the image in a window
-display(img)
+# Example usage:
+if __name__ == "__main__":
+    # Change the path below to any image you want to process
+    detect_and_draw_objects("/Users/jameswalter/Desktop/Photogammetry/Images/CUBE_1.JPG")
 
 
