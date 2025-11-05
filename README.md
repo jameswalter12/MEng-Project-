@@ -34,4 +34,12 @@ Then set a mask to only get blue colours (see link: https://docs.opencv.org/4.x/
 
 ## Calibration 
 
-Do I have to do alot of this?? - If so how
+Do I have to do alot of this?? - If so how 
+
+HERE IS AN IDEA: 
+
+Given the appliation that Shehan has created surely I can do an image feature detection matching excersice with the cube stl layer file to see if there are any defects... 
+
+
+
+
