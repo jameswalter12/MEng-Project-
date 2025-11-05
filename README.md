@@ -16,3 +16,6 @@ So the good news is that the final peice of code in this file is a pretty simple
 
 * NEXT STEP: Lets look at how this can actually be utilised and how I can start forming datasets from photos such as these, the upper angle does seem to be fairly successfull in the creation of the part.
 * I should also look to see if I can isolate the simple part rather than collecting edges of the WHOLE thing as when we work on the photogrammetry we are not exactly going to be interested in the base or anything - maybe feature matching or something??
+
+Again Source 1: https://github.com/worklifesg/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/blob/main/5.%20Object%20Detection%20with%20OpenCV%20and%20Python/7_ObjectDetection_OpenCV_WaterShedAlgorithm.ipynb  
+
