@@ -19,3 +19,10 @@ So the good news is that the final peice of code in this file is a pretty simple
 
 Again Source 1: https://github.com/worklifesg/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/blob/main/5.%20Object%20Detection%20with%20OpenCV%20and%20Python/7_ObjectDetection_OpenCV_WaterShedAlgorithm.ipynb  
 
+## File 3 - Cube Det Ite 2: 
+
+This is the most advanced processing done yet, successfully isolates the cube in the photo and is able to (to some extent) detect corners on the cube, however if you look at the photo - there are some anomolies now this could be due to actual surface defects in the print, or maybe photo quality, or maybe too much noise or coding errors? this will need an investigation. 
+
+This was written with a combinataion of Source 1, and GPT suggestions (especially for the box detection and output scripting). 
+
+Source 1: https://github.com/worklifesg/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/blob/main/5.%20Object%20Detection%20with%20OpenCV%20and%20Python/7_ObjectDetection_OpenCV_WaterShedAlgorithm.ipynb  
