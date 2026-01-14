@@ -27,3 +27,7 @@ I definitely need to continue figuring out my Photogrammetry pipeline, I got to 
 I need to be recording data ASAP is the big thing, my next big completion actually has to be connection and use of the camera sensors. Especially as there is likely to be image quality and focus issues. 
 
 I also need to be wokring on Photogrammetry, my supervisor also recommended that I have a look at commercial tools and how they do it, this project is surely an investigation so I feel like if theres a commerciallly available tool there is no reason why I wouldn't be able to use this if it could be effective and useable with a digital twin. 
+
+## Ideas 
+
+Here is a thought, so in my previous code I was having some trouble with my photogrammetry code picking the correct candidate within a busy image, what I could potentially do, is use the expected cube, i.e. colours and shape, based on what STL I am feeding into the pipeline, if my code can access this, through the GCODE etc., the code can take the expected colour and maybe some parameters, to feed into a HSV detection sort of thing to narrow down some candidates. Even if the photo is taken at an early stage when it is very small, information on the colour will surely be helpful. This also means that the code can be completely adaptable to whatever shape/colour the target object will be because these parameters will be inputs throught the STL to GCODE process. Meaning I can use the code for (within reason) any object? 
