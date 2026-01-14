@@ -90,7 +90,7 @@ The clean integration is:
           │  - cluster defects                                         │
           └──────────────────────────────────────────────────────────┘
                                       │
-                 ┌────────────────────┴────────────────────┐
+                  ┌────────────────────┴────────────────────┐
                  ▼                                         ▼
 ┌──────────────────────────────────┐        ┌──────────────────────────────────┐
 │ Outputs for Dissertation / Eval   │        │ Optional Closed-loop Extension   │
@@ -99,6 +99,9 @@ The clean integration is:
 │ - performance vs defects dataset  │        │ (treat as exploratory/future)    │
 └──────────────────────────────────┘        └──────────────────────────────────┘
 
+```
+--- 
+
 ## Quick conclusion of the above
 
 SO this is a primising architecture of what I might be able to do, combining my photogrammetry with this part of Shehan's script that is actually integrated with the main application and the printer controls/setup. However a lot of investigation needs to be undertaken into the actual function and eficacy of the compare_layer scripts; is it doable? how much does it depend on angle/photos taken, is Aruco markers the best way forward?
@@ -106,3 +109,4 @@ SO this is a primising architecture of what I might be able to do, combining my 
 ## Further Important Note
 
 Now all of the above is promising and interesting, however is should CERTAINLY be noted and considered that it has been expressed in weekly meetings, that the focus of my photogrammetry and sensing should not necessarily be focused on an arial (from above view) and we should mroeso be focusing on the side view, how will this fit in? can similar logic be used? how will it be used? 
+
