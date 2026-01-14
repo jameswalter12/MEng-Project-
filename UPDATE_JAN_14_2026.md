@@ -31,3 +31,9 @@ I also need to be wokring on Photogrammetry, my supervisor also recommended that
 ## Ideas 
 
 Here is a thought, so in my previous code I was having some trouble with my photogrammetry code picking the correct candidate within a busy image, what I could potentially do, is use the expected cube, i.e. colours and shape, based on what STL I am feeding into the pipeline, if my code can access this, through the GCODE etc., the code can take the expected colour and maybe some parameters, to feed into a HSV detection sort of thing to narrow down some candidates. Even if the photo is taken at an early stage when it is very small, information on the colour will surely be helpful. This also means that the code can be completely adaptable to whatever shape/colour the target object will be because these parameters will be inputs throught the STL to GCODE process. Meaning I can use the code for (within reason) any object? 
+
+# Caveats to the above 
+
+This pipeline will be adapabtable to different parts, GCODE WILL give expected shape and position from the slicer - can parse, print bounding box, expected footprint, which can find candidates based on proximity etc... 
+
+HOWEVER...This requires, image setup is controlled (fixed camera position), priors are provided (GCODE has no colour info so may have to be input). Wont be univeral if lighting changes etc. 
