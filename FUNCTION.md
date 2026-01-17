@@ -31,7 +31,12 @@ This function is the initialisation of the class, and all the lines below it wil
   * Layer Coordinates - layers_coordinate is defined here as an empty list, which is filled in function parse_gocde() via parser.compute_layers(). compute_layers() is a function within parser.py that computes a list of per-ayer segments from G-Code moves.
  
   * Model Layer Path - model_layers_path is defined here and written to when exporting model layer images, in open_file(), if a G-Code file is opened directly and slice_model(), if an STL is sliced. This path is read from in update_plot() to display layer images in the UI, and in debug_layer_comparison_callback(), when the comparison needs model images. 
- 
+
+* Printer Settings - Printer settings such as filament diameter, nozzle diameter, layer height and flow modifier are set.
+
+* Button Setting - Buttons/inputs are set for defect size, print toggles. A default directory for defect G-Code is set, and a path set initially at zero.
+
+* 
   
 
     
