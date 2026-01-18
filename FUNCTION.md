@@ -36,7 +36,15 @@ This function is the initialisation of the class, and all the lines below it wil
 
 * Button Setting - Buttons/inputs are set for defect size, print toggles. A default directory for defect G-Code is set, and a path set initially at zero.
 
-* 
+* Application Inputs - Compare layer, compare mesh, thermal monitoring, filament sensors, and accelerometer monitoring.
+
+## initUI() Function 
+
+This function just creates and initialises the User Interface. Adding control tabs, a notebook feature, a slicer settings tab,  and a configuration table. There is also a condition set that if debug mode is on, the sample STL is automatically loaded. 
+
+## SetupControlTab(self, frame)
+
+
   
 
     
