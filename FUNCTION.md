@@ -44,7 +44,7 @@ This function just creates and initialises the User Interface. Adding control ta
 
 ## SetupControlTab(self, frame)
 
-
+After application frames and details are setup for the app. This includes combination boxes for port selecting
   
 
     
