@@ -55,8 +55,8 @@
         <mxCell id="NZYyponrEruQd2Ba_puR-29" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.cone2;dx=0.5;dy=0.9;rotation=-75;fillColor=#d5e8d4;strokeColor=#82b366;opacity=40;" value="" vertex="1">
           <mxGeometry height="105.62" width="110" x="819.9980580390899" y="308.80812557387287" as="geometry" />
         </mxCell>
-        <mxCell id="NZYyponrEruQd2Ba_puR-89" parent="1" style="shape=mxgraph.basic.arc;html=1;startAngle=0.875;endAngle=0.1;endArrow=classic;endFill=1;rotation=-75;" value="" vertex="1">
-          <mxGeometry height="127.5" width="180" x="-45" y="250.57" as="geometry" />
+        <mxCell id="NZYyponrEruQd2Ba_puR-89" parent="1" style="shape=mxgraph.basic.arc;html=1;startAngle=0.8761129534883115;endAngle=0.06328446036244913;endArrow=classic;endFill=1;rotation=-75;dashed=1;dashPattern=12 12;" value="" vertex="1">
+          <mxGeometry height="127.5" width="180" x="-30" y="250.57" as="geometry" />
         </mxCell>
         <mxCell id="NZYyponrEruQd2Ba_puR-63" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
           <mxGeometry height="450.63" width="450.63" x="44.69" y="139.99" as="geometry" />
@@ -176,6 +176,9 @@
         </mxCell>
         <mxCell id="NZYyponrEruQd2Ba_puR-36" parent="NZYyponrEruQd2Ba_puR-125" style="shape=mxgraph.signs.tech.camera_2;html=1;pointerEvents=1;fillColor=#f8cecc;strokeColor=#b85450;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="" vertex="1">
           <mxGeometry height="23.75" width="29.99" x="116.12" y="412.88" as="geometry" />
+        </mxCell>
+        <mxCell id="NZYyponrEruQd2Ba_puR-131" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" value="22.5°" vertex="1">
+          <mxGeometry height="31.19" width="39.99" x="-60" y="291.31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
