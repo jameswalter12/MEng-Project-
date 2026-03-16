@@ -6,3 +6,12 @@ This is the primary branch for the project and will underline the pipeline funct
 
 ## Feature Detection and Sparse Reconstruction
 
+## Dense-Cloud Creation 
+
+## Mesh Creationa and Refinement
+
+## Calibrationa and scale development
+
+## Metric Extraction 
+
+## Model Comparison
