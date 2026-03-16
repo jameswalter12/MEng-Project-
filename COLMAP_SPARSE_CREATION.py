@@ -583,32 +583,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-# ---------------------------------------------------------------------------
-# Working terminal commands
-# ---------------------------------------------------------------------------
-# 1) Build sparse (OpenMVS-safe PINHOLE) for PIPELINE:
-# python3 'PIPELINE/COLMAP_SPARSE_CREATION.py' \
-#   --project '/Users/jameswalter/Desktop/Photogammetry/PIPELINE' \
-#   --images-subdir 'IMAGES_PROCESSED/masked' \
-#   --preset iphone_fast \
-#   --camera-model PINHOLE \
-#   --single-camera \
-#   --force
-#
-# 2) Verify camera model:
-# mkdir -p /tmp/pipeline_sparse_txt && \
-# colmap model_converter \
-#   --input_path '/Users/jameswalter/Desktop/Photogammetry/PIPELINE/sparse' \
-#   --output_path '/tmp/pipeline_sparse_txt' \
-#   --output_type TXT && \
-# sed -n '1,20p' /tmp/pipeline_sparse_txt/cameras.txt
-#
-# 3) Then run mesh:
-# python3 'PIPELINE/MESH_FROM_SPARSE.py' \
-#   --project '/Users/jameswalter/Desktop/Photogammetry/PIPELINE' \
-#   --images-subdir 'IMAGES_PROCESSED' \
-#   --profile safe
-
 '''
 python3 'PIPELINE/COLMAP_SPARSE_CREATION.py' \
   --project '/Users/jameswalter/Desktop/Photogammetry/PIPELINE' \
