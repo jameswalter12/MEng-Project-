@@ -1,14 +1,3 @@
-"""
-Create a COLMAP sparse model compatible with PIPELINE/MESH_FROM_SPARSE.py.
-
-Example:
-python3 PIPELINE/COLMAP_SPARSE_CREATION.py \
-  --project "/Users/jameswalter/Desktop/Photogammetry/PIPELINE_2/PROJECT_2_MUG" \
-  --images-subdir "INPUT IMAGES" \
-  --preset iphone_balanced \
-  --force
-"""
-
 import argparse
 import shutil
 import subprocess
