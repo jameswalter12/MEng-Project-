@@ -28,13 +28,13 @@
         <mxCell id="Dz0B00qut855h5xw-8mb-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#06090B;opacity=70;" value="&lt;div&gt;DensifyPointCloud&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Estimates depth per image, fuses to dense cloud&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="250" x="260" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="Dz0B00qut855h5xw-8mb-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;ReconstructMesh&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Fits initial surface mesh to dense cloud&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Dz0B00qut855h5xw-8mb-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;opacity=70;" value="&lt;div&gt;ReconstructMesh&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Fits initial surface mesh to dense cloud&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="240" x="265" y="585" as="geometry" />
         </mxCell>
         <mxCell id="Dz0B00qut855h5xw-8mb-17" edge="1" parent="1" source="Dz0B00qut855h5xw-8mb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Dz0B00qut855h5xw-8mb-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Dz0B00qut855h5xw-8mb-14" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Profile?&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Safe/quality&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Dz0B00qut855h5xw-8mb-14" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#000000;opacity=70;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Profile?&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Safe/quality&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="200" x="285" y="700" as="geometry" />
         </mxCell>
         <mxCell id="Dz0B00qut855h5xw-8mb-15" edge="1" parent="1" source="Dz0B00qut855h5xw-8mb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dz0B00qut855h5xw-8mb-14">
@@ -43,13 +43,13 @@
         <mxCell id="Dz0B00qut855h5xw-8mb-19" edge="1" parent="1" source="Dz0B00qut855h5xw-8mb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Dz0B00qut855h5xw-8mb-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Dz0B00qut855h5xw-8mb-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;RefineMesh&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Fits initial surface mesh to dense cloud&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Dz0B00qut855h5xw-8mb-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;opacity=70;" value="&lt;div&gt;RefineMesh&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Fits initial surface mesh to dense cloud&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="240" x="265" y="850" as="geometry" />
         </mxCell>
-        <mxCell id="Dz0B00qut855h5xw-8mb-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;TextureMesh&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Projects original images onto mesh surface&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Dz0B00qut855h5xw-8mb-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;opacity=70;" value="&lt;div&gt;TextureMesh&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Projects original images onto mesh surface&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="240" x="265" y="970" as="geometry" />
         </mxCell>
-        <mxCell id="Dz0B00qut855h5xw-8mb-20" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Texture Mesh (.obj)" vertex="1">
+        <mxCell id="Dz0B00qut855h5xw-8mb-20" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Texture Mesh (.obj)" vertex="1">
           <mxGeometry height="60" width="270" x="250" y="1090" as="geometry" />
         </mxCell>
         <mxCell id="Dz0B00qut855h5xw-8mb-21" edge="1" parent="1" source="Dz0B00qut855h5xw-8mb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dz0B00qut855h5xw-8mb-20">
