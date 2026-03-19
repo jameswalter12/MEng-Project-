@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15" version="29.6.3">
+  <diagram name="Page-1" id="hV7kKCNx-ei_YzAem_ZS">
+    <mxGraphModel dx="775" dy="1179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k4G07jKrEluFyoyDXwPm-4" edge="1" parent="1" source="k4G07jKrEluFyoyDXwPm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="k4G07jKrEluFyoyDXwPm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k4G07jKrEluFyoyDXwPm-1" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="COLMAP Sparse Output" vertex="1">
+          <mxGeometry height="60" width="270" x="250" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="k4G07jKrEluFyoyDXwPm-3" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;InterfaceCOLMAP&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;2&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Converts COLMAP files to OpenMVS forma&lt;/font&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;t&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="260" x="255" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="k4G07jKrEluFyoyDXwPm-5" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Profile?&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Safe/quality&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="285" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="k4G07jKrEluFyoyDXwPm-7" edge="1" parent="1" source="k4G07jKrEluFyoyDXwPm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="k4G07jKrEluFyoyDXwPm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
