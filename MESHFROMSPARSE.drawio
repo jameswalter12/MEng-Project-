@@ -197,6 +197,12 @@
         <mxCell id="LNrgSJMv3yf7a7jYPpYc-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Error" vertex="1">
           <mxGeometry height="30" width="120" x="50" y="1975" as="geometry" />
         </mxCell>
+        <mxCell id="LNrgSJMv3yf7a7jYPpYc-58" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="30" width="50" x="30" y="2020" as="geometry" />
+        </mxCell>
+        <mxCell id="LNrgSJMv3yf7a7jYPpYc-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Start/End" vertex="1">
+          <mxGeometry height="30" width="120" x="60" y="2020" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
