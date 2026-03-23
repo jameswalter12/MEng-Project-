@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k4G07jKrEluFyoyDXwPm-1" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;opacity=70;fillColor=#eeeeee;strokeColor=#36393d;" value="Start" vertex="1">
-          <mxGeometry height="60" width="270" x="250" y="110" as="geometry" />
+          <mxGeometry height="40" width="160" x="305" y="130" as="geometry" />
         </mxCell>
         <mxCell id="LNrgSJMv3yf7a7jYPpYc-11" edge="1" parent="1" source="k4G07jKrEluFyoyDXwPm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="LNrgSJMv3yf7a7jYPpYc-10">
           <mxGeometry relative="1" as="geometry" />
