@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Page-1" id="cLpUl2CsggtWR69fuoBk">
-    <mxGraphModel dx="906" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="882" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,7 +70,7 @@
         <mxCell id="ci4ycOVSJn4kl2p9lFh--41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;opacity=70;" value="Compute Scale factor given known marker size (mm per reconstruction unit)" vertex="1">
           <mxGeometry height="60" width="240" x="315" y="550" as="geometry" />
         </mxCell>
-        <mxCell id="ci4ycOVSJn4kl2p9lFh--43" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=light-dark(#c7ebed, #ededed);opacity=70;strokeColor=light-dark(#68a9af, #ededed);" value="Scale for downstream metric extraction&amp;nbsp;" vertex="1">
+        <mxCell id="ci4ycOVSJn4kl2p9lFh--43" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;opacity=70;strokeColor=#82b366;" value="Scale for downstream metric extraction&amp;nbsp;" vertex="1">
           <mxGeometry height="60" width="260" x="305" y="660" as="geometry" />
         </mxCell>
         <mxCell id="ci4ycOVSJn4kl2p9lFh--45" edge="1" parent="1" source="ci4ycOVSJn4kl2p9lFh--43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="ci4ycOVSJn4kl2p9lFh--30">
